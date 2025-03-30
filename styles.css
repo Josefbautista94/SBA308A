@@ -42,11 +42,15 @@ option:hover {
     background-color: rgb(45, 45, 45);
     font-weight: bold;
     color: aliceblue;
+    border-color: aliceblue;
+    text-align: center;
+
 }
 
 .pokeSearch::placeholder {
     color: lightgray;
     opacity: 1;
+    text-align: center;
 
 }
 
