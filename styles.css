@@ -1,3 +1,45 @@
-button {
-    cursor: url('pokeball.png') 0 0, pointer;
+body {
+    cursor: url('pointer.png') 0 0, pointer;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+
+  .mainDiv {
+    background-color: brown;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    
+  }
+  
+  .mainDiv h1 {
+    text-align: center;
+  }
+  
+.searchDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  .pokeSearch{
+    width:50% ;
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    
+  }
+  .pokeButton {
+    background-color: aliceblue;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+
+  }
+
+  #pokemonImageDiv{
+    
   }
