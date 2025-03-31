@@ -1,8 +1,7 @@
-import axios from 'axios';
-
-
 axios.defaults.baseURL = "https://pokeapi.co/api/v2/"
 
+const searchInput = document.getElementById("pokeSearch")
+const searchButton = document.getElementById("pokeButton")
 
 
 async function getPokiData(name){
@@ -16,4 +15,19 @@ console.log(`There was an error : ${error}`)
     }
 }
 
-getPokiData("mewtwo")
+searchInput.addEventListener("keydown", (event) =>{
+    if(event.key ==="Enter"){
+        const query = searchInput.value.trim().toLowerCase();
+        if(query){
+            getPokiData(query)
+        }
+    }
+})
+
+searchButton.addEventListener("click",() =>{
+    const query = searchInput.value.trim().toLowerCase()
+    if(query){
+        getPokiData(query)
+    }
+
+})
