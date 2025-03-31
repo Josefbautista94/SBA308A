@@ -62,4 +62,8 @@ option:hover {
 
 }
 
-#pokemonImageDiv {}
+#pokemonImageDiv {
+
+    display: flex;
+    justify-content: flex-end;
+}
