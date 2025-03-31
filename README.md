@@ -33,12 +33,6 @@ A stylish, interactive Pokédex built with HTML, CSS, and JavaScript — powered
 
 ---
 
-## 🖼️ Screenshots
-
-*(Insert screenshots here if you'd like)*
-
----
-
 ## 📚 Credits
 
 - Pokémon data provided by [PokéAPI](https://pokeapi.co/)
