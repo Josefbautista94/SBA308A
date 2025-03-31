@@ -63,7 +63,39 @@ option:hover {
 }
 
 #pokemonImageDiv {
-
+    position: absolute;                 
+    top: 50%;                           
+    right: 5rem;                        
+    transform: translateY(-50%);        
+    
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;          
+    align-items: center;              
+    
+    background-color: rgb(45, 45, 45);
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 2px solid #ca7b3b;
+    box-shadow: 0 0 15px #3b4cca;
+    
+    
+  }
+
+  .descriptionDiv {
+    max-width: 400px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  }
+  .descriptionDiv,
+#pokemonImageDiv {
+  display: none;
 }
