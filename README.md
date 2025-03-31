@@ -1,4 +1,4 @@
-# 🧢 The Pokédex Project
+# The Pokédex Project
 
 A stylish, interactive Pokédex built with HTML, CSS, and JavaScript — powered by the [PokéAPI](https://pokeapi.co/)! Users can search for any Pokémon to view its sprite image and Pokédex summary in a sleek retro-themed UI.
 
