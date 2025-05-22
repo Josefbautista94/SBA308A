@@ -48,4 +48,4 @@ A stylish, interactive Pokédex built with HTML, CSS, and JavaScript — powered
 
 ---
 
-## 👾 Created with love by Jose Bautista
+## 👾 Created by Jose Bautista
